@@ -54,6 +54,7 @@ for (let i=0;i<arr.length;i++){
 console.log(arr);*/
 //Yha pr kya ho rha hum index pr jake pick kr rhe h
 //But hum ab index pr jake value pick kre ge
+
 //Question=>1
 //Sum of n Element of array
 /*let arr = [10,20,30,40,50];
@@ -66,7 +67,9 @@ for(let i=0;i<arr.length;i++){
 console.log(sum);*/
 //Output=> 150; 
 //If i want to print the other numberacc to you👍 so we use prompt type 
+
 //Question=>2
+//Max Number
 /*let arr= [10,2,3,43,66,90];
 let max=arr[0];
 for(let i=0;i<arr.length;i++){
@@ -76,6 +79,67 @@ for(let i=0;i<arr.length;i++){
 }
 console.log(max)*/
 //Output=>90 for min just max>arr[i] i.e=>2
+
+//Question=>3
+//2nd Max Number
+/*let arr = [10, 6, 75, 65, 88, 30];
+
+let max = Math.max(arr[0], arr[1]);
+let sMax = Math.min(arr[0], arr[1]);
+
+for(let i=2; i<arr.length;i++){
+    if(arr[i]>max){
+        sMax = max;
+        max = arr[i];
+    }
+    else if(arr[i] > sMax && max != arr[i]){//This logic is so confusing
+        sMax = arr[i];
+    }
+}
+console.log(sMax)*/
+
+// Question=>4
+//Reverse the array=>1st Method
+/*let arr=[10,20,30,40,50]
+
+let temp = new Array(arr.length);
+
+let j = 0;
+for(let i=arr.length-1;i>=0;i--){
+    temp[j] =arr[i];
+    j++;
+} 
+console.log(temp);*/
+
+//2nd Method
+/*let arr=[10,20,30,40,50];
+
+let i=0;
+let j=arr.length-1;
+
+while(i!=j){
+    let temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+    i++;
+    j--;
+}
+console.log(arr);*/
+
+//Question=> 5
+let arr = [1, 0, 0, 1, 0, 1, 0, 1, 1];
+
+let i=0; j=0;
+while(i<arr.length){
+    if(arr[i]==0){
+    let temp = arr[i];
+    arr[i]=arr[j];
+    arr[j]=temp;
+    j++
+}
+i++;
+}
+console.log(arr);
 
 
 
