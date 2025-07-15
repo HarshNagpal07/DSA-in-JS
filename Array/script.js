@@ -56,14 +56,28 @@ console.log(arr);*/
 //But hum ab index pr jake value pick kre ge
 //Question=>1
 //Sum of n Element of array
-let arr = [10,20,30,40,50];
+/*let arr = [10,20,30,40,50];
 //let arr = new Array(5);
 let sum = 0;
 for(let i=0;i<arr.length;i++){
     //arr[i]=Number(prompt("Enter a value"));//I initialize the number you want to add
     sum = sum + arr[i];
 }
-console.log(sum);
+console.log(sum);*/
+//Output=> 150; 
+//If i want to print the other numberacc to you👍 so we use prompt type 
+//Question=>2
+/*let arr= [10,2,3,43,66,90];
+let max=arr[0];
+for(let i=0;i<arr.length;i++){
+    if(max<arr[i]){
+        max= arr[i];
+    }
+}
+console.log(max)*/
+//Output=>90 for min just max>arr[i] i.e=>2
+
+
 
 
 
