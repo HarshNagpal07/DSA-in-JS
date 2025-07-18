@@ -99,7 +99,7 @@ for(let i=2; i<arr.length;i++){
 console.log(sMax)*/
 
 // Question=>4
-//Reverse the array=>1st Method
+//Reverse the array=>1st Method Pick the element from the last 
 /*let arr=[10,20,30,40,50]
 
 let temp = new Array(arr.length);
@@ -112,6 +112,7 @@ for(let i=arr.length-1;i>=0;i--){
 console.log(temp);*/
 
 //2nd Method
+//Pick the elements by 1st and last indicies of array
 /*let arr=[10,20,30,40,50];
 
 let i=0;
@@ -127,6 +128,7 @@ while(i!=j){
 console.log(arr);*/
 
 //Question=> 5
+//Arrange the One's and zero's in one side
 /*let arr = [1, 0, 0, 1, 0, 1, 0, 1, 1];
 
 let i=0; j=0;
@@ -141,7 +143,8 @@ i++;
 }
 console.log(arr);*/
 //Question=> 6
-let arr = [5, 1, -17, -5, 19, 7, 2, -15, 3];
+//Arrange the negative and positive number in one side 
+/*let arr = [5, 1, -17, -5, 19, 7, 2, -15, 3];
 
 let j = 0;
 for (let i = 0; i < arr.length; i++) {
@@ -154,11 +157,35 @@ for (let i = 0; i < arr.length; i++) {
     }
 }
 
-console.log(arr); 
+console.log(arr);*/ 
 
+//Question=> 7
+//Move the elements left side by 1
+/* let arr=[1,2,3,4,5]
 
+let copy = arr[0];
+for(let i=0;i<arr.length;i++){
+    arr[i]=arr[i+1];
+}
+arr[arr.length-1]=copy;
+console.log(arr);*/
 
+//Move the elements right side by 1
+/* let arr=[1,2,3,4,5];
 
+let copy=arr[arr.length-1];
+for(let i=arr.length-1;i>0;i--){
+    arr[i]=arr[i-1];
+}
+arr[0]=copy;
+console.log(arr);*/
 
+//Nesters looping
+/*for(let i=1;i<=4;i++){
+    console.log(i+"execution");
+for(let j=1;j<=3;j++){
+    console.log("hello");
+}
+}*/
 
 
