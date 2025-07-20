@@ -218,8 +218,8 @@ for(let j=0;j<k;j++){
     arr[0]=copy;
 }
 console.log(arr);*/
-//New method of left rotation
-let arr=[1,2,3,4,5]
+//New method of left rotation(Main made Algo)
+/*let arr=[1,2,3,4,5]
 let temp= new Array(arr.length);
 let k= Number(prompt("Enter a value"))
 k = k % arr.length;
@@ -227,4 +227,45 @@ k = k % arr.length;
 for(let i=0;i<arr.length;i++){
     temp[(i + k) % arr.length] = arr[i];
 }
-console.log(temp);
+console.log(temp);*/
+
+//Block Swap reverse algo
+//Left rotation without extra space
+/*let arr=[1,2,3,4,5]
+let k=Number(prompt("Enter an value"));
+k= k % arr.length;
+
+reverse(0,k-1);
+reverse(k,arr.length-1);
+reverse(0,arr.length-1);
+console.log(arr);
+
+function reverse(i,j){
+    while(i<j){
+        let temp= arr[i];
+        arr[i]= arr[j];
+        arr[j]= temp;
+        i++;
+        j--;
+    }
+}*/
+
+//Right rotation without extra space
+/*let arr=[1,2,3,4,5]
+let k=Number(prompt("Enter an value"));
+k= k % arr.length;
+
+reverse(0,arr.length-1);
+reverse(0,k-1);
+reverse(k,arr.length-1);
+console.log(arr);
+
+function reverse(i,j){
+    while(i<j){
+        let temp= arr[i];
+        arr[i]= arr[j];
+        arr[j]= temp;
+        i++;
+        j--;
+    }
+}*/
