@@ -1,0 +1,1 @@
+let amount=5234;
