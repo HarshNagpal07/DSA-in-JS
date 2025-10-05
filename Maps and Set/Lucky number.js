@@ -1,4 +1,4 @@
-//Largest Lucky Number in an Array
+//Largest Lucky Number in an Arrays
 let arr=[1,2,4,3,5,4,3,3,2,4,4];
 let max=-1;
 
