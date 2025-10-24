@@ -206,18 +206,18 @@ console.log(arr)
 console.log(count);*/
 
 //Move the element right side by 2
-/*let arr=[1, 2, 3, 4, 5];
+// let arr=[1, 2, 3, 4, 5];
 
-let k=Number(prompt("Enter k value"));
-k = k % arr.length  ;
-for(let j=0;j<k;j++){
-    let copy=arr[arr.length-1];
-    for(let i=arr.length-1;i>0;i--){
-        arr[i]=arr[i-1];
-    }
-    arr[0]=copy;
-}
-console.log(arr);*/
+// let k=Number(prompt("Enter k value"));
+// k = k % arr.length  ;
+// for(let j=0;j<k;j++){
+//     let copy=arr[arr.length-1];
+//     for(let i=arr.length-1;i>0;i--){
+//         arr[i]=arr[i-1];
+//     }
+//     arr[0]=copy;
+// }
+// console.log(arr);
 //New method of left rotation(Main made Algo)
 /*let arr=[1,2,3,4,5]
 let temp= new Array(arr.length);
@@ -272,14 +272,14 @@ function reverse(i,j){
 
 //Remove duplicate from Sorted array(LeetCode Question)
 //Answer=>
-/*var RemoveDuplicate = Function(nums)
-{
-    let j = 1;
-    for(let i=0;i<nums.length-1;i++){
-        if(nums[i] != nums[i+1]){
-            nums[j] = nums[i+1];
-            j++;
-        }
-    }
-    return j;
-};*/
+// var RemoveDuplicate = Function(nums)
+// {
+//     let j = 1;
+//     for(let i=0;i<nums.length-1;i++){
+//         if(nums[i] != nums[i+1]){
+//             nums[j] = nums[i+1];
+//             j++;
+//         }
+//     }
+//     return j;
+// };

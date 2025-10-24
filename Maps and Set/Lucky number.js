@@ -2,7 +2,7 @@
 let arr=[1,2,4,3,5,4,3,3,2,4,4];
 let max=-1;
 
-/*for(let i=0;i<arr.length;i++){
+for(let i=0;i<arr.length;i++){
     let count=0;
     
     for(let j=0;j<arr.length;j++){
@@ -14,4 +14,4 @@ let max=-1;
         max = Math.max(max,arr[i]);
     }
 }
-console.log(max);*/
+console.log(max);
