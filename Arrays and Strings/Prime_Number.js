@@ -21,4 +21,20 @@
 //    }
 // }
 
-St
+// Storing Prime Number in a Array
+let arr=[];
+for(let num=2;arr.length<10;num++){
+let isPrime=true;
+
+for(let i=2;i<=Math.sqrt(num);i++){
+    if(num % i ===0){
+        isPrime = false;
+        break;
+    }
+}
+if(isPrime){
+    arr.push(num);
+}
+
+}
+console.log (arr);
