@@ -14,7 +14,7 @@ let oddsum = 0;
         }
     }
         console.log(oddsum);
-       /* | Your code version                          | Operation                             | Output |
+       /*Code version                        | Operation                             | Output |
 | ------------------------------------------ | ------------------------------------- | ------ |
 | `oddsum += prevsum`                        | Sums **all** odd-length subarrays     | `15`   |
 | `maxOddSum = Math.max(maxOddSum, prevsum)` | Finds **largest** odd-length subarray | `8`    |*/
