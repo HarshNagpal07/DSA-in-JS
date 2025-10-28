@@ -13,3 +13,4 @@
 //Max num in a sentence
 let arr= ["alice and bob love leetcode", "i think so too", "this is great thanks very much"];
 
+let max=0;
