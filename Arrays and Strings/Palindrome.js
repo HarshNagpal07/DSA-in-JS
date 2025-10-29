@@ -10,7 +10,7 @@ for(let i=0;i<Math.floor(arr.length/2);i++){
 if(Palindrone==1){
     console.log("Palindrone")
 }
-//With Simple Logic
+//With Simple Logic // Two pointer se bhi hoga
 /*let isPal = true;
 for (let i = 0; i < arr.length / 2; i++) {
   if (arr[i] !== arr[arr.length - 1 - i]) {

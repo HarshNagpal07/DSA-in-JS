@@ -26,3 +26,4 @@ for (let i = 0; i < x.length; i++) {
     i = j - 1; // move i to the last digit of this number
   }
 }*/
+//Or we can say we can get anytype of number alphabet or cases like convert lower case to upper case and count their frequency
