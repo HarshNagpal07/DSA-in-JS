@@ -10,6 +10,18 @@ for(let i=0;i<arr.length;i++){
         console.log(arr[i]+":"+num);
     }
 }
+let x = "Tomorrow";
+let b = new Map();
+
+// Count character frequency
+for (let i = 0; i < x.length; i++) {
+  b.set(x[i], (b.get(x[i]) || 0) + 1);
+}
+
+// Print key-value pairs
+for (let [char, freq] of b) {
+  console.log(char, freq);
+}
 //Max num in a sentence
 /*let arr= ["alice and bob love leetcode", "i think so too", "this is great thanks very much"];
 
