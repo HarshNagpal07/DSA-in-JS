@@ -9,4 +9,4 @@ for(let i=0;i<=nums.length;i++){
     }
     map[nums[i]]=i;
 }
-// console.log(map);
+console.log(map);
