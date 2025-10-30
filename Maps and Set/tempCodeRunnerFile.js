@@ -1,5 +1,4 @@
-//With maps
-// let n = 10; // you can change this value to test with other numbers
+let n = 10; // you can change this value to test with other numbers
 
 // if (n <= 2) {
 //     console.log(0);
@@ -30,26 +29,3 @@
 
 //     console.log(count);
 // }
-// With array app
-n=10;
-     if (n <= 2)
-        console.log(0) ;
-
-    let isPrime = [];
-    for (let i = 0; i < n; i++){
-        isPrime.push(true);
-    }
-    for (let i = 2; i * i < n; i++) {
-        if (isPrime[i]) {
-            for (let j = i * i; j < n; j = j + i) {
-                isPrime[j] = false;
-            }
-        }
-    }
-    let count = 0;
-    for (let i = 2; i < n; i++){
-        if (isPrime[i]) {
-            count++;
-        }
-    }
-    console.log(count);
