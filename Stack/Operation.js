@@ -44,3 +44,86 @@ if(x.length===0){
 x.pop()
 console.log(x);
 
+class Stack{
+    constructor(size=5){
+        this.data = new Array(size)
+        this.index = 0
+        this.size = size
+    }
+    
+    full(){
+        if(this.index < size){
+            return false
+        }
+        return true
+    }
+    
+    push(val){
+        if(this.full())
+            return "The stack is full!"
+        
+        this.data[this.index] = val
+        this.index++
+    }
+    
+    pop(){
+        val = this.data[this.index]
+        this.data[this.index] = null
+        return val
+    }
+    
+    peek(){
+        return this.data[this.index]
+    }
+}
+
+push = O(1)
+pop = O(1)
+peek = O(1)
+
+
+const stack = {
+    data: [],
+    index: 0,
+    push: (val)=>{
+        this.data[this.index] = val
+        this.index++
+    }
+}
+
+
+// hash map
+let data = new Map()
+
+data.set("a",10)
+
+data.get("a")
+
+data.has("a")
+
+data.delete("a")
+
+CURD
+O(1)
+O(1)
+O(1)
+O(1)
+
+O(n)
+
+console.log(data)
+
+// object way
+
+let obj = {}
+
+obj["a"] = 10
+
+obj["a"]
+
+!!obj["a"]
+
+delete obj["a"]
+
+console.log(obj)
+
