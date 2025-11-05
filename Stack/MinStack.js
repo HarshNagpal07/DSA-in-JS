@@ -29,7 +29,7 @@ class MinStack {
         return this.minStack[this.minStack.length - 1];
     }
 }
-// ---------- Test the class ----------
+//Test the class 
 const obj = new MinStack();
 
 obj.push(-2);
