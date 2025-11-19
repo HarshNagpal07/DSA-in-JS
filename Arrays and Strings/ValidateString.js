@@ -25,19 +25,19 @@ for(let i=arr.length-1;i>=0;i--){
 }
 console.log(reversed);
 //Convert lower case to upper case
-let s = "hello";
-let result = "";
+// let s = "hello";
+// let result = "";
 
-for (let i = 0; i < s.length; i++) {
-    let code = s.charCodeAt(i);
-    if (code >= 97 && code <= 122) {
-        result += String.fromCharCode(code - 32); // difference between 'a' and 'A'
-    } else {
-        result += s[i];
-    }
-}
+// for (let i = 0; i < s.length; i++) {
+//     let code = s.charCodeAt(i);
+//     if (code >= 97 && code <= 122) {
+//         result += String.fromCharCode(code - 32); // difference between 'a' and 'A'
+//     } else {
+//         result += s[i];
+//     }
+// }
 
-console.log(result);
+// console.log(result);
 
 let str = "hello world";
 let upper = str.toUpperCase();
