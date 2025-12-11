@@ -22,6 +22,7 @@ display=function(head)
 }
 head=new Node(5);
 head=insertion_start(head,10);
+head=insertion_start(head,0);//one more node
 // console.log(head);
 // console.log(Node.value)
 display(head);
