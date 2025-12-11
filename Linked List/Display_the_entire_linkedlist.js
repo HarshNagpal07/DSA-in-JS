@@ -1,3 +1,4 @@
+//this is combination of inster start, value address and display method you can console the output as you can
 class Node{
     constructor(a)
     {
@@ -21,4 +22,6 @@ display=function(head)
 }
 head=new Node(5);
 head=insertion_start(head,10);
+// console.log(head);
+// console.log(Node.value)
 display(head);
