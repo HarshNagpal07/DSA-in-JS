@@ -31,6 +31,14 @@ insertion_middle=function(head,n,value){
     temp.next=new_node;
     new_node.next=x;
 }
+deletion_at_end=function(head){
+    temp=head;
+    while(temp.next.next!=null){
+        temp=temp.next;
+    }
+    temp.next=temp.next.next;
+
+}
 display=function(head)
 {
     temp=head;
@@ -46,5 +54,6 @@ insertion_end(head,20);
 insertion_end(head,30);
 insertion_middle(head,3,2);
 head=head.next;
+deletion_at_end(head);
 display(head);
 //This doesnot work
