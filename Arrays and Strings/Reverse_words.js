@@ -7,4 +7,4 @@ let words = s.split(" ");
         if (i !== 0) reversed += " ";
     }
     console.log(reversed);
-    
+// for Multiple spaces handle different situation
