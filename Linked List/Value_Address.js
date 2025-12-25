@@ -7,3 +7,4 @@ class Node{
 }
 node=new Node(5);
 console.log(node.value);
+console.log(node.next);
