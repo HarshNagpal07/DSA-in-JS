@@ -20,6 +20,18 @@ insertion_end=function(head,value)
     }
     temp.next=new_node;
 }
+//There is issue in there
+// insertion_middle=function(head,n,value){
+//     new_node=new Node(value);
+//     temp=head;
+//     while(n-1>0){
+//         temp=temp.next;
+//         n=n-1;
+//     }
+//     x=temp.next;
+//     temp.next=new_node;
+//     new_node.next=x;
+// }
 insertion_middle=function(head,n,value){
     new_node=new Node(value);
     temp=head;
