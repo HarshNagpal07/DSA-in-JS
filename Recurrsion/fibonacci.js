@@ -10,8 +10,8 @@ function fibonacciSeries(n) {
     }
 }
 
-/*fibonacciSeries(5);
-function fib(n) {
+fibonacciSeries(6);
+/*function fib(n) {
     if (n === 0) {
         return 0;
     }
